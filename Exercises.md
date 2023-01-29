@@ -3,9 +3,8 @@
 ******
 
 <details>
-<summary>Exercise 0: Clone project and create own Git repository </summary>
+<summary>Exercise 0: Clone project and create own Git repository</summary>
 <br />
-
 To work with the project for the exercises:
 - Clone the project and
 - create your own project/git repository from it
@@ -35,14 +34,17 @@ git push -u origin main
 ******
 
 <details>
-<summary>Exercise 1: Build jar artifact </summary>
+<summary>Exercise 1: Build jar artifact</summary>
 <br />
+You want to deploy the artifact to share that library with all team members. So:
+- try to build the jar file
+
+The Build will fail, because of a compile error in a test, so you can't build the jar.
 
 **steps**
 
 ```sh
 ./gradlew build
-
 ```
 
 </details>
@@ -50,8 +52,8 @@ git push -u origin main
 ******
 
 <details>
-<summary>Exercise 2: Run tests </summary>
- <br />
+<summary>Exercise 2: Run tests</summary>
+<br />
 
 **steps:**
 ```sh
@@ -60,7 +62,6 @@ boolean result = myApp.getCondition(true);
 
 # run tests
 ./gradlew test
-
 ```
 
 </details>
@@ -68,14 +69,13 @@ boolean result = myApp.getCondition(true);
 ******
 
 <details>
-<summary>Exercise 3: Clean & build App </summary>
- <br />
+<summary>Exercise 3: Clean & build App</summary>
+<br />
 
 **steps:**
 ```sh
 ./gradlew clean 
 ./gradlew build
-
 ```
 
 </details>
@@ -83,13 +83,12 @@ boolean result = myApp.getCondition(true);
 ******
 
 <details>
-<summary>Exercise 4: Start application </summary>
- <br />
+<summary>Exercise 4: Start application</summary>
+<br />
 
 **steps:**
 ```sh
 java -jar bootcamp-java-project-1.0-SNAPSHOT.jar
-
 ```
 
 </details>
@@ -97,8 +96,8 @@ java -jar bootcamp-java-project-1.0-SNAPSHOT.jar
 ******
 
 <details>
-<summary>Exercise 5: Start App with 2 Parameters </summary>
- <br />
+<summary>Exercise 5: Start App with 2 Parameters</summary>
+<br />
 
 **steps:**
 ```sh
@@ -117,7 +116,6 @@ try {
 
 # run application with ANY 2 parameters
 java -jar bootcamp-java-project-1.0-SNAPSHOT.jar myname mylastname
-
 ```
 
 </details>
