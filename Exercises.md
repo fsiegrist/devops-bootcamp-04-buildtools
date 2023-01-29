@@ -111,9 +111,13 @@ java -jar build/libs/bootcamp-java-project-1.0-SNAPSHOT.jar
 <summary>Exercise 5: Start App with 2 Parameters</summary>
 <br />
 
-**steps:**
+Now you want to add parameters to your application, so you and other users can pass different values on startup.
+- Add parameter input to the Java code (see code snippet below, which you can copy)
+- Rebuild the jar file
+- Execute the jar file again with 2 params
+
 ```sh
-# add parameter input to the Java code, in Application.java, on line 16
+# Code snippet to add inside Application.java on line 16
 Logger log = LoggerFactory.getLogger(Application.class); 
 try { 
     String one = args[0]; 
@@ -122,12 +126,17 @@ try {
 } catch (Exception e) { 
     log.info("No parameters provided"); 
 }
+```
+
+**steps:**
+```sh
+# add parameter input to the Java code (see code snipped of the exercise description)
 
 # rebuild the jar file 
 ./gradlew build
 
 # run application with ANY 2 parameters
-java -jar bootcamp-java-project-1.0-SNAPSHOT.jar myname mylastname
+java -jar build/libs/bootcamp-java-project-1.0-SNAPSHOT.jar felix siegrist
 ```
 
 </details>
