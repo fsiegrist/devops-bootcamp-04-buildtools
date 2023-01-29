@@ -4,25 +4,30 @@
 
 <details>
 <summary>Exercise 0: Clone project and create own Git repository </summary>
- <br />
+<br />
+
+To work with the project for the exercises:
+- Clone the project and
+- create your own project/git repository from it
 
 **steps:**
 
 ```sh
 # clone repository & change into project dir
 git clone git@gitlab.com:devops-bootcamp3/java-gradle-app.git
-cd java-gradle-app
+mv java-gradle-app devops-bootcamp-04-buildtools
+cd devops-bootcamp-04-buildtools
 
 # remove remote repo reference and create your own local repository
 rm -rf .git
 git init 
 git add .
-git commit -m "initial commit"
+git commit -m "Initial commit"
 
-# create git repository on Gitlab and push your newly created local repository to it
-git remote add origin git@gitlab.com:{gitlab-user}/{gitlab-repo}.git
-git push -u origin master
-
+# create git repository on GitHub and push your newly created local repository to it
+git remote add origin git@github.com:fsiegrist/devops-bootcamp-04-buildtools.git
+git branch -m main
+git push -u origin main
 ```
 
 </details>
@@ -31,7 +36,7 @@ git push -u origin master
 
 <details>
 <summary>Exercise 1: Build jar artifact </summary>
- <br />
+<br />
 
 **steps**
 
