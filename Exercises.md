@@ -75,6 +75,10 @@ boolean result = myApp.getCondition(true);
 <summary>Exercise 3: Clean & build App</summary>
 <br />
 
+You fixed the test. Now:
+- clean the build folder with gradle clean and 
+- try to build jar file again.
+
 **steps:**
 ```sh
 ./gradlew clean 
