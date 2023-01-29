@@ -55,9 +55,12 @@ The Build will fail, because of a compile error in a test, so you can't build th
 <summary>Exercise 2: Run tests</summary>
 <br />
 
+- Fix the test, by changing "true" string to true boolean.
+- Run gradle test to execute only the tests and check the fix.
+
 **steps:**
 ```sh
-# locate AppTest.java file in src/test/java folder, line 22 & fix test
+# locate AppTest.java file in src/test/java foldr & fix test
 boolean result = myApp.getCondition(true); 
 
 # run tests
