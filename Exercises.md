@@ -93,9 +93,14 @@ You fixed the test. Now:
 <summary>Exercise 4: Start application</summary>
 <br />
 
+Start the jar file to test that the application runs successfully as a jar file.
+- Start app with java -jar app-1.0.jar
+
+NOTE: replace "app-1.0.jar" with the name of YOUR jar file.
+
 **steps:**
 ```sh
-java -jar bootcamp-java-project-1.0-SNAPSHOT.jar
+java -jar build/libs/bootcamp-java-project-1.0-SNAPSHOT.jar
 ```
 
 </details>
