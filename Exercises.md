@@ -1,6 +1,5 @@
-</details>
-
-******
+## Exercises
+<br />
 
 <details>
 <summary>Exercise 0: Clone project and create own Git repository</summary>
